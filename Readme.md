@@ -8,6 +8,7 @@ This project will add some texts and pics with the notes, website links and othe
 * [About This Project](#about-this-project)
 * [Introduction to Notes](#introduction-to-notes)
     * [Git Guide](#git-guide)
+    * [CUDA 8 and ubuntu 1604 setup](#CUDA-8-and-ubuntu-1604-setup)
     * [Learning Deep Learning and Application Notes](#learning-deep-learning-and-application-notes)
     * [Notes for Hadoop 1.2.1 install and build guide](#notes-for-hadoop-121-install-and-build-guide)
     * [The Cisco CCNA and CCNP Notes](#the-cisco-ccna-and-ccnp-notes)
@@ -19,6 +20,11 @@ This project will add some texts and pics with the notes, website links and othe
 
 The Notes about first time I use github.
 <br />Link to [Notes](Git%20Guide/)
+
+### CUDA 8 and ubuntu 1604 setup
+
+Setup guide for CUDA toolkit 8RC and tensorflow for ubuntu 16.04 LTS.
+<br />Link to [Notes](CUDA%208%20and%20ubuntu%201604%20setup/)
 
 ### Learning Deep Learning and Application Notes
 
