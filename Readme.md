@@ -33,7 +33,7 @@ Link to [Notes](https://github.com/artmusic0/Documentation/Notes for Hadoop 1.2.
 ### The Cisco CCNA and CCNP Notes
 
 This are the notes about what I've learned the Networks knowledges and Cisco systems from my university year till now. I've passed the Cisco CCNA Routing and Switching Certificate and is continuing on the road of CCNP.
-Link to [Notes](./The Cisco CCNA and CCNP Notes/).
+Link to [Notes](The%20Cisco%20CCNA%20and%20CCNP%20Notes/).
 
 
 `reload the page in the future for more stuff`
