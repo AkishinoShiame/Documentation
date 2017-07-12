@@ -1,4 +1,4 @@
-# CUDA-8-and-ubuntu-1604-setup
+# CUDA 8 and ubuntu 1604 setup
 <br />
 1. Install ubuntu 16.04.1 LTS<br />
 <br />
@@ -110,13 +110,9 @@ https://01.org/linuxgraphics/intel-linux-graphics-firmwares
 <br />
 ==============================<br />
 <br />
-11. finished!!  reboot & enjoy using it.<br />
-<br />
-==============================<br />
-reboot
+11. finished!!  reboot & enjoy using it.
 ``` Shell
-  sudo reboot
+  sudo reboot
 ```
-<br />
 ==============================<br />
 <br />
