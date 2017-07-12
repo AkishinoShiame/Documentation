@@ -112,10 +112,9 @@ https://01.org/linuxgraphics/intel-linux-graphics-firmwares
 <br />
 11. finished!!  reboot & enjoy using it.<br />
 <br />
-==============================<br />
-<br />
+==============================
 ``` Shell
-sudo reboot
+  sudo reboot
 ```
 <br />
 ==============================<br />
