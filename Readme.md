@@ -30,4 +30,4 @@ This are the notes about what I've learned the Networks knowledges and Cisco sys
 Link to [Notes](The Cisco CCNA and CCNP Notes/).
 
 
-///reload the page in the future for more stuff
+`reload the page in the future for more stuff`
