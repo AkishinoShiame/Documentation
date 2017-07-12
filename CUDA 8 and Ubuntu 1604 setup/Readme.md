@@ -10,10 +10,10 @@ It is known that the version of Spyder is raising this error: ValueError: unknow
 <br />
 To fix it you will have to set these environment variables in your ~/.profile (or ~/.bashrc) manually:<br />
 <br />
-'''
+``` Shell
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
-'''
+```
 <br />
 ==============================<br />
 <br />
