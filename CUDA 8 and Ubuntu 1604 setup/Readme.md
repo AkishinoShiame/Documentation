@@ -9,18 +9,18 @@
 It is known that the version of Spyder is raising this error: ValueError: unknown locale: XXXXX, which doesn’t let it start correctly.<br />
 <br />
 To fix it you will have to set these environment variables in your ~/.profile (or ~/.bashrc) manually:<br />
-<br />
+
 ``` Shell
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 ```
-<br />
+
 ==============================<br />
 <br />
 3. install spyder by:<br />
-'''
+``` Shell
 sudo apt-get install spyder
-'''
+```
 <br />
 4. exec the spyder for first time setup<br />
 <br />
