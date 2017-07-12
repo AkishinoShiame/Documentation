@@ -8,7 +8,7 @@ This project will add some texts and pics with the notes, website links and othe
 * [About This Project](#about-this-project)
 * [Introduction to Notes](#introduction-to-notes)
     * [Learning Deep Learning and Application Notes](#learning-deep-learning-and-application-notes)
-    * [Notes for Hadoop 1.2.1 install and build guide](#notes-for-hadoop-1.2.1-install-and-build-guide)
+    * [Notes for Hadoop 1.2.1 install and build guide](#notes-for-hadoop-121-install-and-build-guide)
     * [The Cisco CCNA and CCNP Notes](#the-cisco-ccna-and-ccnp-notes)
 
 
