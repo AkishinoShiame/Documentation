@@ -27,11 +27,17 @@ sudo apt-get install spyder
 5. install gcc 4.4 for the capability on CUDAtoolkit 8 RC<br />
 <br />
 ==============================<br />
-Getting g++-4.4 / gcc-4.4 : `sudo gedit /etc/apt/sources.list` .
-Then add two new lines to the file :
+Getting g++-4.4 / gcc-4.4 :
+
 ``` Shell
-deb [URL] trusty main universe
-deb [URL] trusty-updates main universe
+sudo gedit /etc/apt/sources.list
+```
+
+Then add two new lines to the file :
+
+``` Shell
+deb <URL> trusty main universe
+deb <URL> trusty-updates main universe
 ```
 
 My example :
