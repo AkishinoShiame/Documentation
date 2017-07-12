@@ -27,14 +27,14 @@ sudo apt-get install spyder
 5. install gcc 4.4 for the capability on CUDAtoolkit 8 RC<br />
 <br />
 ==============================<br />
-Getting g++-4.4 / gcc-4.4 : ```sudo gedit /etc/apt/sources.list```.
+Getting g++-4.4 / gcc-4.4 : `sudo gedit /etc/apt/sources.list`.
 <br />
-Then add two new lines to the file :<br />
+Then add two new lines to the file :
 ``` Shell
 deb [URL] trusty main universe
 deb [URL] trusty-updates main universe
 ```
-My example :<br />
+My example :
 ``` Shell
 deb http://dk.archive.ubuntu.com/ubuntu/ trusty main universe
 deb http://dk.archive.ubuntu.com/ubuntu/ trusty-updates main universe
@@ -45,8 +45,8 @@ Run `sudo apt-get update`, and you can install gcc-4.4 : `sudo apt-get install g
 6. download the nvidia CUDAtoolkit from Website<br />
 <br />
 ==============================
-Installation Instructions:<br />
-<br />
+Installation Instructions:
+
 ``` Shell
   sudo dpkg -i cuda-repo-ubuntu1604-8-0-rc_8.0.27-1_amd64.deb
   sudo apt-get update
@@ -58,8 +58,8 @@ Installation Instructions:<br />
 7. donlowd and copy cuDNN5 from website<br />
 <br />
 ==============================<br />
-Installation Instructions:<br />
-<br />
+Installation Instructions:
+
 ``` Shell
   sudo cp -P cuda/include/* /usr/local/cuda/include
   sudo cp -P cuda/lib64/* /usr/local/cuda/lib64
