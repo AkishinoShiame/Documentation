@@ -30,11 +30,13 @@ Setup guide for CUDA toolkit 8RC and tensorflow for ubuntu 16.04 LTS.
 
 This will includes the notes and site's what I've learned in my graduated school years. I was started it two years ago (2015) as a newbie. And then started to learn about the basics of supervised learning algorithm, deep leaarning APIs and so on. With using the windows operating system first for CPU computing, I quickly found some issue and then jumped in Linux Ubuntu and with GPU computation. This note will mostly writing the suggested APIs and envirment building. If my times allowed me to doing more works, I'll considered to also add some theory too.  
 <br />Link to [Notes](Learning%20Deep%20Learning%20and%20Application%20Notes/).
+<br />[Ref]([R]esources/Graduated-First.pdf)
 
 ### Notes for Hadoop 1.2.1 install and build guide
 
 This is my college project that is apply on "The Study of Dynimically Power-Saving in Cloud Computing System using Hadoop". In our project using the hadoop version 1.2.1 (the current version of that time Jan 16, 2015) as the Cloud Computing System. Our main enviorment is using Ubuntu as main system and also using php + bash to prompt the controls. This note will mostly include the enviorment install and some guide about cluster setting. And giving some links to this project.
 <br />Link to [Notes](Notes%20for%20Hadoop%201.2.1%20install%20and%20build%20guide/).
+<br />[Ref]([R]esources/University-Application.pdf)
 
 ### The Cisco CCNA and CCNP Notes
 
