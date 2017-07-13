@@ -154,14 +154,14 @@ bin/stop-all.sh
 
 ## Problem Solving
 
-issue 1 : hadoop auto on and control
+***issue 1 : hadoop auto on and control***
 
 ===<br />
 http://wiki.ubuntu.org.cn/index.php?title=%E5%88%A9%E7%94%A8Cloudera%E5%AE%9E%E7%8E%B0Hadoop&variant=zh-tw
 cloudera實現開機自啟動
 ===<br />
 
-issue 2 : showing error below
+***issue 2 : showing error below***
 
 ``` Shell
 WARN hdfs.DFSClient: DataStreamer Exception: org.apache.hadoop.ipc.RemoteException: java.io.IOException: File /user/hadoop/PiEstimator_TMP_3_141592654/in/part0 could only be replicated to 0 nodes, instead of 1
@@ -172,7 +172,7 @@ fixed the hosts file
 ![ProblemSolv-1](Pics/problemsolv-1.png)
 ===<br />
 
-issue 3 : php access permission
+***issue 3 : php access permission***
 
 ===<br />
 http://www.renn999.cc/archives/396/#.U_xdqx8cjQp
@@ -183,13 +183,13 @@ http://www.renn999.cc/archives/396/#.U_xdqx8cjQp
 service apache2 restart
 ===<br />
 
-issue 4 : close hadoop safemode
+***issue 4 : close hadoop safemode***
 
 ===<br />
 bin/hadoop dfsadmin -safemode leave
 ===<br />
 
-issue 5 : Shell Script permission issue
+***issue 5 : Shell Script permission issue***
 
 ===<br />
 編寫並執行shell script(.sh)檔時，要是遇到sudo輸入密碼時，解決方案如下
@@ -198,13 +198,13 @@ sudo  ‘-S’ <<加入此指令
 echo ‘密碼’ | sudo -S <須執行的指令>
 ===<br />
 
-issue 6 : php ssh
+***issue 6 : php ssh***
 
 ===<br />
 ssh 帳號@目的電腦IP '指令'
 ===<br />
 
-issue 7 : 啟用休眠
+***issue 7 : 啟用休眠***
 
 ===<br />
 https://help.ubuntu.com/12.04/ubuntu-help/power-hibernate.html
@@ -221,13 +221,13 @@ echo '40363'| sudo -S pm-hibernate
 
 ===<br />
 
-issue 8 : CPU info
+***issue 8 : CPU info***
 
 ===<br />
 cat /proc/cpuinfo
 ===<br />
 
-issue 9 : wake on lan
+***issue 9 : wake on lan***
 
 ===<br />
 http://amos-tsai.blogspot.tw/2012/07/ubuntu-wake-on-lan.html
@@ -255,7 +255,7 @@ http://amos-tsai.blogspot.tw/2012/07/ubuntu-wake-on-lan.html
 	wakeonlan 00:11:22:33:44:55:66
 ===<br />
 
-other issue : 
+***other issue : ***
 
 ===<br />
 常見問題解決方式：
