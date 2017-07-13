@@ -34,7 +34,7 @@ We needs to install tasksel for managing and installing OpenSSH and LAMP. And do
 ``` Shell
 sudo apt-get install tasksel
 sudo tasksel
-// select and install packages
+# select and install packages
 ```
 
 ![Tasksel-1](Pics/tasksel-1.png)
@@ -49,12 +49,12 @@ In this section we are starting install the Hadoop.
 We needs to set up the RSA key-pairs and install Java to let the Hadoop works.
 
 ``` Shell
-// Generating the RSA key pairs
+# Generating the RSA key pairs
 ssh-keygen -t dsa –p “”
-// for hadoop does not require key pairs
+# for hadoop does not require key pairs
 ssh-keygen -t dsa -P '' -f ~/.ssh/id_dsa
 cat ~/.ssh/id_dsa.pub >> ~/.ssh/authorized_keys
-// install java
+# install java
 sudo apt-get install openjdk-7-jdk
 ```
 
@@ -66,14 +66,16 @@ sudo apt-get install openjdk-7-jdk
 Then we can started install Hadoop. Downloading from website and fixed some configuration.
 
 ``` Shell
-// Download and Uncompress package.
+# Download and Uncompress package.
 wget https://archive.apache.org/dist/hadoop/core/hadoop-1.2.1/hadoop-1.2.1.tar.gz 
 tar zxvf hadoop-1.2.1.tar.gz
-// Setup Java location
-// edit hadoop-env.sh and adding path with below code.
-// probibly at line 10.
+# Setup Java location
+# edit hadoop-env.sh and adding path with below code.
+# probibly at line 10.
 export JAVA_HOME=/usr/lib/jvm/java-7-openjdk-i386
-// then editing three files with adding below codes one by one
+```
+``` XML
+<!-- then editing three files with adding below codes one by one -->
 <configuration>
 
   <property>
@@ -82,7 +84,7 @@ export JAVA_HOME=/usr/lib/jvm/java-7-openjdk-i386
   </property>
 
 </configuration>
-// conf/mapred-site.xml
+<!-- conf/mapred-site.xml -->
 <configuration>
 
   <property>
@@ -95,8 +97,8 @@ export JAVA_HOME=/usr/lib/jvm/java-7-openjdk-i386
   </property>
 
 </configuration>
-// conf/hdfs-site.xml
-// we changed the replication to 3 for 3 datanodes.
+<!-- conf/hdfs-site.xml
+ we changed the replication to 3 for 3 datanodes. -->
 <configuration>
 
   <property>
@@ -109,15 +111,17 @@ export JAVA_HOME=/usr/lib/jvm/java-7-openjdk-i386
   </property>
 
 </configuration>
-// conf/core-site.xml
+<!-- conf/core-site.xml -->
+```
 
-// also need to setup nodes. Using computer-name or called hostname.
+``` Shell
+# also need to setup nodes. Using computer-name or called hostname.
 namenode
-// master
+# master
 datanode-1
 datanode-2
 datanode-3
-// slave
+# slave
 
 ![HadoopSet-1](Pics/hadoopset-1.png)
 ![HadoopSet-2](Pics/hadoopset-2.png)
@@ -133,9 +137,9 @@ Now we can start and run hadoop.
 rm –rf hadoop_tmp/
 bin/hadoop namenode –format
 bin/start-all.sh
-// using below commands to check the system is working
+# using below commands to check the system is working
 jps
-// using command to stop
+# using command to stop
 bin/stop-all.sh
 ```
 
