@@ -122,6 +122,7 @@ datanode-1
 datanode-2
 datanode-3
 # slave
+```
 
 ![HadoopSet-1](Pics/hadoopset-1.png)
 ![HadoopSet-2](Pics/hadoopset-2.png)
