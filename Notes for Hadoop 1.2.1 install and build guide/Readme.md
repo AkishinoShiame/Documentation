@@ -156,10 +156,10 @@ bin/stop-all.sh
 
 issue 1 : hadoop auto on and control
 
-===
+===<br />
 http://wiki.ubuntu.org.cn/index.php?title=%E5%88%A9%E7%94%A8Cloudera%E5%AE%9E%E7%8E%B0Hadoop&variant=zh-tw
 cloudera實現開機自啟動
-===
+===<br />
 
 issue 2 : showing error below
 
@@ -167,46 +167,46 @@ issue 2 : showing error below
 WARN hdfs.DFSClient: DataStreamer Exception: org.apache.hadoop.ipc.RemoteException: java.io.IOException: File /user/hadoop/PiEstimator_TMP_3_141592654/in/part0 could only be replicated to 0 nodes, instead of 1
 ```
 
-===
+===<br />
 fixed the hosts file
 ![ProblemSolv-1](Pics/problemsolv-1.png)
-===
+===<br />
 
 issue 3 : php access permission
 
-===
+===<br />
 http://www.renn999.cc/archives/396/#.U_xdqx8cjQp
 修改/etc/apache2/envvars裡面的user 跟group
 為 hadoop 即可 以 hadoop權限執行
 
 然後在root權限
 service apache2 restart
-===
+===<br />
 
 issue 4 : close hadoop safemode
 
-===
+===<br />
 bin/hadoop dfsadmin -safemode leave
-===
+===<br />
 
 issue 5 : Shell Script permission issue
 
-===
+===<br />
 編寫並執行shell script(.sh)檔時，要是遇到sudo輸入密碼時，解決方案如下
 sudo  ‘-S’ <<加入此指令
 然後再前面pipeline 並使用echo自動stdin密碼進去 達到免輸入sudo如下
 echo ‘密碼’ | sudo -S <須執行的指令>
-===
+===<br />
 
 issue 6 : php ssh
 
-===
+===<br />
 ssh 帳號@目的電腦IP '指令'
-===
+===<br />
 
 issue 7 : 啟用休眠
 
-===
+===<br />
 https://help.ubuntu.com/12.04/ubuntu-help/power-hibernate.html
 
 sudo pm-hibernate
@@ -219,17 +219,17 @@ echo '40363'| sudo -S pm-hibernate
          密碼        指令
 ```
 
-===
+===<br />
 
 issue 8 : CPU info
 
-===
+===<br />
 cat /proc/cpuinfo
-===
+===<br />
 
 issue 9 : wake on lan
 
-===
+===<br />
 http://amos-tsai.blogspot.tw/2012/07/ubuntu-wake-on-lan.html
 
 
@@ -253,11 +253,11 @@ http://amos-tsai.blogspot.tw/2012/07/ubuntu-wake-on-lan.html
 1. sudo apt-get install wakeonlan
 2. wakeonlan 電腦B的網卡號碼，例如：
 	wakeonlan 00:11:22:33:44:55:66
-===
+===<br />
 
 other issue : 
 
-===
+===<br />
 常見問題解決方式：
 http://www.360doc.com/content/11/0323/23/23378_104035203.shtml
 
@@ -273,4 +273,4 @@ bin/hadoop-daemon.sh start tasktracker
 查狀態
 bin/hadoop dfsadmin -report
 
-===
+===<br />
