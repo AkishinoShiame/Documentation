@@ -16,7 +16,7 @@ In this note shows how to install the enviorment system for Linux Ubuntu 14.04 L
 
 In this section we used Ubuntu 14.04 LTS Desktop version for easy deployment. In real enviorment shuld use the Server Version.
 
-### Install Enviorment 
+### Install Ubuntu 
 
 Download and install Ubuntu.
 
