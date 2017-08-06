@@ -10,7 +10,7 @@
 ## 目錄
 
 * [概述](#abstract)
-* [系統環境](#System)
+* [系統環境](#system)
     * [Ubuntu 14.04 Server](#ubuntu-14.04-server)
     * [Ubuntu 16.04 Server](#ubuntu-16.04-server)
 * [Python基礎與IDE](#python-basics)
