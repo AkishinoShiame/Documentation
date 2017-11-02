@@ -24,11 +24,12 @@
     * [DIGITS](#digits)
     * [Keras](#keras)
     * [Caffe](#caffe)
-    * [Torch](torch)
+    * [Torch](#torch)
+	* [Others](#others)
 
 <br />
 
-## 以下正文
+## 概述
 
 <br />
 
@@ -40,7 +41,11 @@
 
 ### Ubuntu 14.04 Server
 
+本部分將會針對伺服器安裝流程進行撰寫<br />
+
 ### Ubuntu 16.04 Server
+
+本部分將會針對伺服器安裝流程進行撰寫<br />
 
 ### Python Basics
 ## Python基礎與IDE
@@ -53,7 +58,9 @@
 ### Linux Cuda
 
 ### Deep Learning
-## 深度網路理論整
+## 深度網路理論整理
+
+針對所學過的理論與相關架構等進行整理與超連結，主要包括類神經網路、捲積神經網路、遞歸神經網路等等。細部會簡單探討Logistic Regression、Sigmoid函式、RELU等。
 
 ### API
 ## 應用程式界面
@@ -67,3 +74,5 @@
 ### Caffe
 
 ### Torch
+
+### Others
