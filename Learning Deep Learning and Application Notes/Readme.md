@@ -53,6 +53,8 @@
 ### GPU CUDA
 ## GPU運算建置-CUDA
 
+本章節針對CUDA環境的建置進行說明。<br />
+
 ### Windows Cuda
 
 ### Linux Cuda
