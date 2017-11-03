@@ -67,6 +67,8 @@
 ### API
 ## 應用程式界面
 
+針對相關API進行簡單說明。
+
 ### Theano
 
 ### Tensor Flow
