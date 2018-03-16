@@ -26,6 +26,7 @@
     * [Caffe](#caffe)
     * [Torch](#torch)
 	* [Others](#others)
+* [注意事項](#caution)
 
 <br />
 
@@ -80,3 +81,8 @@
 ### Torch
 
 ### Others
+
+### Caution
+## 注意事項
+
+訓練中的部分細節須注意之處。
