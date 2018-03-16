@@ -51,6 +51,8 @@
 ### Python Basics
 ## Python基礎與IDE
 
+提供Python的安裝，簡單的基礎架構與相關實用的編輯器。
+
 ### GPU CUDA
 ## GPU運算建置-CUDA
 
@@ -58,7 +60,11 @@
 
 ### Windows Cuda
 
+將Cuda安裝至windows上的方法。
+
 ### Linux Cuda
+
+將Cuda安裝至Linux Ubuntu上的方法。
 
 ### Deep Learning
 ## 深度網路理論整理
