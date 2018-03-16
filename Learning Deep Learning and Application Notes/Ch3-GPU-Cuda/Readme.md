@@ -11,7 +11,7 @@
 * [Windows環境](#Windows-cuda)
 * [Linux環境](#linux-cuda)
 
-<br\>
+<br />
 
 ### Windows Cuda
 
