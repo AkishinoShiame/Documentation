@@ -8,7 +8,7 @@
 ### Content
 ## 目錄
 
-* [Windows環境](#Windows-cuda)
+* [Windows環境](#windows-cuda)
 * [Linux環境](#linux-cuda)
 
 <br />
