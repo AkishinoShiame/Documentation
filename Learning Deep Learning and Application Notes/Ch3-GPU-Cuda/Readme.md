@@ -11,6 +11,8 @@
 * [Windows環境](#Windows-cuda)
 * [Linux環境](#linux-cuda)
 
+<br\>
+
 ### Windows Cuda
 
 於windows上安裝Cuda前，需根據對應的顯卡硬體，事先檢查所持有的卡片是否支援。由<a src=” https://developer.nvidia.com/cuda-gpus”>此處</a>或是利用型號尋找官方頁面得知是否支援。
