@@ -46,7 +46,7 @@
 
 確認後，可先考慮從[官方](https://www.nvidia.com/en-us/geforce/geforce-experience/)安裝NVidia所提供的Geforce Experience，已讓軟體自動檢測並提供最新的驅動安裝
 
-[img 1](img/Pic01.png)
+![img 1](img/Pic01.png)
 
 # Linux Cuda
 
