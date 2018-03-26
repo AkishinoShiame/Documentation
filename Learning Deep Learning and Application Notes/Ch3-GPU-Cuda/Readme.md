@@ -48,6 +48,31 @@
 
 ![img 1](img/Pic01.png)
 
+如下圖為Geforce Experience的驅動安裝畫面
+
+![img 2](img/Pic02.png)
+
+根據官網所提供之資訊可知，在安裝顯卡CUDA 運算套件之前需先注意想安裝的版本與對應到的套件。通常在此須注意一下硬體版本，若顯卡為GTX 10XX 系列的建議安裝最新8.0 版，而倘若硬體為GeForce 9XX 或是GTX 9XX 系列建議安裝7.5 版，而其他的硬體設備請根據官方說明比照辦理。
+
+在安裝CUDA 前請先注意電腦是否可拿來做顯卡運算，並留意不同版本在安裝前「一定必須」先裝對應支援版本之Visual Studio，避免CUDA 安裝不完全。根據上表說明可知，8.0 的CUDA 可裝Visual Studio 2015/2015 community/2013/2012/2010，而7.5 版支援Visual Studio
+2013/2012/2010。
+
+因此，請務必先安裝完對應之Visual Studio再行Cuda之安裝。
+
+![img 3](img/Pic03.png)
+
+接著即可安裝CUDA Toolkit。並必須注意，安裝Toolkit 時需看到已下截圖之選項才能確保安裝時是完整的。
+
+![img 4](img/Pic04.png)
+
+## 延伸安裝
+## Expended install
+
+Cudnn於windows安裝需先進入[Cudnn的下載網頁](https://developer.nvidia.com/cudnn)下載對應的版本進行安裝。
+由於此檔案需要權限進行下載，因此請先到[此處](https://developer.nvidia.com/developer-program)加入免費的開發者會員。
+
+![img 5](img/Pic05.png)
+
 # Linux Cuda
 
 
