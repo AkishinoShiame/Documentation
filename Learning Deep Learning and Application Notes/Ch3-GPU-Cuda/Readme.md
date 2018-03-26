@@ -80,12 +80,12 @@ Cudnn於windows安裝需先進入[Cudnn的下載網頁](https://developer.nvidia
 最後，將載下來的壓縮檔進行解壓縮，並複製到對應的PATH系統路徑以完成安裝。
 
 
-'''
+```bash
 Copy the following files into the CUDA Toolkit directory.
 	Copy <installpath>\cuda\bin\cudnn64_7.dll to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\<Version>\bin.
 	Copy <installpath>\cuda\ include\cudnn.h to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\<Version>\include.
 	Copy <installpath>\cuda\lib\x64\cudnn.lib to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\<Version>\lib\x64.
-'''
+```
 
 對應出處可參照[此處](http://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html#installwindows)。
 
