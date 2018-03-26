@@ -15,9 +15,9 @@
 
 # Windows Cuda
 
-於windows上安裝Cuda前，需根據對應的顯卡硬體，事先檢查所持有的卡片是否支援。由<a src=” https://developer.nvidia.com/cuda-gpus”>此處</a>或是利用型號尋找官方頁面得知是否支援。
+於windows上安裝Cuda前，需根據對應的顯卡硬體，事先檢查所持有的卡片是否支援。由[此處](https://developer.nvidia.com/cuda-gpus)或是利用型號尋找官方頁面得知是否支援。
 
-接著，由官方的<a src=” http://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/index.html”>系統需求</a>頁面對應使用的系統版本與確定對應需安裝的Visual Studio版本。
+接著，由官方的[系統需求](http://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/index.html)頁面對應使用的系統版本與確定對應需安裝的Visual Studio版本。
 
 
 -----------------------------------------------------
@@ -43,6 +43,8 @@
 
 
 -----------------------------------------------------
+
+
 
 # Linux Cuda
 
