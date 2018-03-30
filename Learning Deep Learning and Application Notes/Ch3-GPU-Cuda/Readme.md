@@ -101,7 +101,7 @@ PS. 有必要的話可考慮在安裝cuda之前先安裝python.
 由於安裝顯卡驅動在仿間流傳了各種的安裝方式，個人在此分享兩種不同的安裝方式，僅供參考。
 由於Linux的NVidia顯卡對應驅動的相容性特別傲嬌，所以請在不同設備上多方與交叉嘗試。
 
-同時，請在安裝之前請先行更新系統，使用 ''' sudo apt-get update && sudo apt-get upgrade –y ''' 進行一次性的檢查與更新。如
+同時，請在安裝之前請先行更新系統，使用 ```bash sudo apt-get update && sudo apt-get upgrade –y ``` 進行一次性的檢查與更新。如
 
 方法一，比較建議給買GEforce或GTX顯卡之PC服用:
 	
