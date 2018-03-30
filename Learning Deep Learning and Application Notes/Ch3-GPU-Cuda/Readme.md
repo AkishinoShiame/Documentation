@@ -98,14 +98,51 @@ PS. 有必要的話可考慮在安裝cuda之前先安裝python.
 於Linux Ubuntu安裝Cuda前，需先在系統安裝正確的driver版本。 同時，須特別注意，根據顯卡的不同需安裝不同的驅動避免出錯。
 同時，CUDA Toolkit 本身預設是包含驅動的安裝，但僅限於最新的硬體進行支援。若非特別新的硬體設備請不要直接執行安裝。
 
-由於安裝顯卡驅動在仿間流傳了各種的安裝方式，個人在此分享兩種不同的安裝方式，僅供參考。
+由於安裝顯卡驅動在仿間流傳了各種的安裝方式，個人在此分享幾種不同的安裝方式，僅供參考。
 由於Linux的NVidia顯卡對應驅動的相容性特別傲嬌，所以請在不同設備上多方與交叉嘗試。
 
 同時，請在安裝之前請先行更新系統，使用
 ```bash
  sudo apt-get update && sudo apt-get upgrade –y 
 ```
-進行一次性的檢查與更新。如
+進行一次性的檢查與更新。
 
-方法一，比較建議給買GEforce或GTX顯卡之PC服用:
-	
+![img 7](img/Pic07.png)
+
+======================================
+接下來提供驅動安裝
+======================================
+
+方法一，建議給買GEforce或GTX顯卡之PC服用:
+
+```bash
+$sudo add-apt-repository ppa:graphics-drivers/ppa
+$sudo apt-get update
+$sudo apt-get install -y nvidia-current nvidia-current-*
+$sudo reboot
+```
+
+方法二，建議給取得最新GTX/GeForce或更高顯卡之PC服用:
+
+```bash
+$sudo add-apt-repository ppa:graphics-drivers/ppa
+$sudo apt-get update
+$sudo reboot
+```
+PS 由於接下來的Cuda安裝包含給最新設備的顯卡驅動，因此此處只提供repo的更新
+
+方法三，建議給使用帶有NVidia顯卡的筆電使用者，或是其他因以上方式接安裝失敗的人使用:
+**此安裝方式是目前測試為止最穩的**
+
+```bash
+$sudo add-apt-repository ppa:graphics-drivers/ppa
+$sudo apt-get update
+$sudo ubuntu-drivers autoinstall
+$sudo reboot
+```
+
+![img 8](img/Pic08.png)
+
+======================================
+接下來提供Cuda Toolkit安裝
+======================================
