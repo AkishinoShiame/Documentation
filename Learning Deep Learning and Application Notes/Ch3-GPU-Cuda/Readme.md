@@ -183,3 +183,25 @@ $sudo reboot
 如此一來就完成了CUDA Toolkit 的環境建置。
 
 ### 最後，額外提供Cudnn之安裝
+
+Cudnn為增強顯卡在深度學習等運算，額外的plugin安裝。
+同樣的，需先至官網尋找對應版本。
+
+![img 12](img/Pic12.png)
+
+接著，利用以下指令進行下載與設置以完成安裝。
+
+```bash
+$wget <~address~.tgz>
+$tar zxvf cudnn-8.0-linux-x64-v6.0.tgz
+$sudo cp -a cuda/lib64/* /usr/local/cuda-8.0/lib64/
+$sudo cp -a cuda/include/* /usr/local/cuda-8.0/include/
+# 以上請注意"8-0"須根據對應版本進行修改
+$sudo ldconfig
+```
+
+![img 12](img/Pic12.png)
+
+![img 13](img/Pic13.png)
+
+如此一來，即可完成所有顯卡環境相關建置。
