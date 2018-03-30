@@ -147,9 +147,39 @@ $sudo reboot
 <<<<<<<<<接下來提供Cuda Toolkit安裝>>>>>>>>> <br />
 ===================================== <br />
 
-請先行自[NVidia CUDA Toolkit官方網站]()取得對應之版本軟體(EX 系統版本，欲安裝之CUDA版本)，此外
+請先行自[NVidia CUDA Toolkit官方網站](https://developer.nvidia.com/cuda-downloads)取得對應之版本軟體(EX 系統版本，欲安裝之CUDA版本)，此外
 由於各版本皆依然會連線至repo源安裝相關軟體，因此建議選擇network版本加速安裝。
 
 **註：由於repo系統設計關係，所有的套件將是連結網路下載安裝檔進行安裝的。**
 
+![img 9](img/Pic09.png)
+
 方法一/方法三:
+
+```bash
+$wget <~address~.deb>
+$sudo dpkg -i cuda-*_amd64.deb
+$sudo apt-get update
+$sudo apt-get install cuda-tookit-8-0 #8-0 請根據版本自行更改
+# 以上指令只進行CUDA安裝，並不會額外安裝附帶之驅動覆蓋掉原始安裝好之驅動
+$sudo reboot
+```
+
+方法二:
+
+```bash
+$wget <~address~.deb>
+$sudo dpkg -i cuda-*_amd64.deb
+$sudo apt-get update
+$sudo apt-get install cuda 
+# 以上指令將安裝所有功能，並會安裝附帶之驅動
+$sudo reboot
+```
+
+![img 10](img/Pic10.png)
+
+![img 11](img/Pic11.png)
+
+如此一來就完成了CUDA Toolkit 的環境建置。
+
+### 最後，額外提供Cudnn之安裝
