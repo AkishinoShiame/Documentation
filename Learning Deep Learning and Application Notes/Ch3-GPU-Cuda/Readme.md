@@ -200,8 +200,8 @@ $sudo cp -a cuda/include/* /usr/local/cuda-8.0/include/
 $sudo ldconfig
 ```
 
-![img 12](img/Pic12.png)
-
 ![img 13](img/Pic13.png)
+
+![img 14](img/Pic14.png)
 
 如此一來，即可完成所有顯卡環境相關建置。
