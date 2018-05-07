@@ -11,8 +11,8 @@
 
 * [概述](#abstract)
 * [系統環境](#system)
-    * [Ubuntu 14.04 Server](#ubuntu-14.04-server)
-    * [Ubuntu 16.04 Server](#ubuntu-16.04-server)
+    * [Ubuntu 14.04 Server](#ubuntu-1404-server)
+    * [Ubuntu 16.04 Server](#ubuntu-1604-server)
 * [Python基礎與IDE](#python-basics)
 * [GPU運算建置-CUDA](#gpu-cuda)
     * [Windows環境](#Windows-cuda)
