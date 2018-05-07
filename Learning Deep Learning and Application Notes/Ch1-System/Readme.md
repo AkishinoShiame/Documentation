@@ -13,17 +13,17 @@
 
 安裝Ubuntu系統將需要下載對應的iso進行安裝，因此需連線至[ubuntu-tw官方網站](https://www.ubuntu-tw.org/modules/tinyd0/)下載對應的版本與系統。
 
-![img 1](img/Pic01.png)
+![img 1](img/Pic01.png) <br\>
 
 接著，將載下來的ISO以兩種方式皆可產生安裝媒體。
 
-``` 方法1: ```
+``` 方法1: ``` 
 將ISO直接燒錄成光碟。
 
-``` 方法2: ```
-使用[Rufus軟體](https://rufus.akeo.ie/)建置安裝媒體，下載方式如下圖所示。
+``` 方法2: ``` 
+使用[Rufus軟體](https://rufus.akeo.ie/)建置安裝媒體，下載方式如下圖所示。 
 
-![img 2](img/Pic02.png)
+![img 2](img/Pic02.png) <br\>
 
 ## Ubuntu 14.04 Server
 
