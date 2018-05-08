@@ -27,6 +27,13 @@
 
 ## Ubuntu 14.04 Server
 
+* UEFI BIOS bootup (較新的主機板)
+
+* Legacy BIOS bootup (傳統開機方式)
 
 
 ## Ubuntu 16.04 Server
+
+* UEFI BIOS bootup (較新的主機板)
+
+* Legacy BIOS bootup (傳統開機方式)
