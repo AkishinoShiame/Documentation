@@ -7,6 +7,7 @@
 * [前置作業](#Pre-Process)
 * [Ubuntu Server 16.04 LTS](#ubuntu-server-1604)
 * [Ubuntu Server 14.04 LTS](#ubuntu-server-1404)
+* [網路設置(Optional)](#internet-settings)
 
 ### Pre-Process
 ## 前置作業
@@ -151,6 +152,31 @@
 
 ## Ubuntu 16.04 Server
 
-* UEFI BIOS bootup (較新的主機板)
+因不同版本的裝機方式皆為相同，因此不做贅述。
 
-* Legacy BIOS bootup (傳統開機方式)
+### Internet Settings
+## 網路設置(Optional)
+
+無DHCP伺服器環境時需手動建置網路
+
+![img 38](img/Pic38.PNG) <br />
+
+手動輸入網路連線相關資訊
+
+![img 39](img/Pic39.PNG) <br />
+
+設定IP與遮罩
+
+![img 40](img/Pic40.PNG) <br />
+
+![img 41](img/Pic41.PNG) <br />
+
+設定路由匝道
+
+![img 42](img/Pic42.PNG) <br />
+
+設定DNS
+
+![img 43](img/Pic43.PNG) <br />
+
+接著可回到上述設定主機名稱步驟
