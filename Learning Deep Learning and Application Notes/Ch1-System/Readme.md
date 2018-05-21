@@ -5,8 +5,8 @@
 ## 目錄
 
 * [前置作業](#pre-process)
-* [Ubuntu Server 16.04 LTS](#ubuntu-server-1604)
-* [Ubuntu Server 14.04 LTS](#ubuntu-server-1404)
+* [Ubuntu Server 14.04 LTS](#ubuntu-1404-server)
+* [Ubuntu Server 16.04 LTS](#ubuntu-1604-server)
 * [網路設置(Optional)](#internet-settings)
 
 ### Pre-Process
