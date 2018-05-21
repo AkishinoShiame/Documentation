@@ -4,7 +4,7 @@
 ### Content
 ## 目錄
 
-* [前置作業](#Pre-Process)
+* [前置作業](#pre-process)
 * [Ubuntu Server 16.04 LTS](#ubuntu-server-1604)
 * [Ubuntu Server 14.04 LTS](#ubuntu-server-1404)
 * [網路設置(Optional)](#internet-settings)
