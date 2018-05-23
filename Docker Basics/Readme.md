@@ -176,3 +176,25 @@ sudo dnf install docker
 ___________________________________
 
 
+* CLI方式(Terminal)
+
+```shell
+docker images #show image
+docker ps -a #show container
+docker volume ls
+
+docker pull <image>
+docker run <image>
+docker attach <Name/ID>
+docker container start/stop <Container>
+docker rm <Container>
+docker create -v <RealFolder:VirtualVolumn> --name <name> <image>
+
+docker create -v C:/Users/shichiu/Documents/Backup-WSL:/home/shichiu/ --name work-ubuntu -it ubuntu
+docker start work-ubuntu
+docker attach work-ubuntu
+```
+
+* GUI方式(kubernetes)
+
+
