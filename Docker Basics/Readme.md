@@ -2,7 +2,7 @@
 
 
 <b>This document will wrote about the basics of docker container.<br>
-本文件將簡述Docker 與 docker container的相關資訊與簡單的使用方式。<\b>
+本文件將簡述Docker 與 docker container的相關資訊與簡單的使用方式。<b>
 
 
 ## Content
