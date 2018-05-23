@@ -26,6 +26,14 @@ Docker 原概念為為了節省系統的龐大性並節省不必要且重複的�
 
 ![img 1](img/Pic01.PNG) <br />
 
+同時，建議初次使用的人可申請一個免費的[Docker Hub](https://hub.docker.com/)帳號，方便往後可下載相關的image或是相關開發上的使用。
+
+![img 2](img/Pic02.PNG) <br />
+
+由於Docker目前已Linux的架構為主，因此若將Docker執行在windows系統上或是MAC OS上，其會使用[Vbox](https://www.virtualbox.org/)並結合kubernetes程式來管理並建置一個虛擬的Linux環境供docker使用。
+
+此外，Docker本身有額外為windows版提供新的架構，除了使用Vbox外，此新版的結合了Windows內含的Hyper-V以執行更穩定的架構。
+
 #### Docker安裝
 ### Docker Install
 
