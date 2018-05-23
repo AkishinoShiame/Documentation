@@ -178,7 +178,7 @@ ___________________________________
 
 * CLI方式(Terminal)
 
-```shell
+```bash
 docker images #show image
 docker ps -a #show container
 docker volume ls
