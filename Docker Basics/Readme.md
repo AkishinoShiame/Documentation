@@ -37,11 +37,87 @@ Docker 原概念為為了節省系統的龐大性並節省不必要且重複的�
 
 此外，Docker本身有額外為windows版提供新的架構，除了使用Vbox外，此新版的結合了Windows內含的Hyper-V以執行更穩定的架構。
 
+docker kubernetes如下圖所示。
+
+![img 3](img/Pic03.PNG) <br />
+
 #### Docker安裝
 ### Docker Install
 
 ___________________________________
 
+
+由於docker提供了不同平台的安裝，因此以下以不同的作業系統平台做簡單的介紹。
+
+* Windows
+
+請先至[官方](https://store.docker.com/editions/community/docker-ce-desktop-windows)下載安裝檔案，並同時確定Hyper-V已於電腦上安裝並啟用。
+
+*注意: Hyper-V軟體，微軟只提供非家用版系統才可進行安裝與使用。
+
+![img 4](img/Pic04.PNG) <br />
+
+若尚未安裝Hyper-V可進入系統的"開啟或關閉windows功能"的頁面進行安裝，如下圖所示。
+
+![img 5](img/Pic05.PNG) <br />
+
+接著，安裝流程如以下所示。
+
+![img 6](img/Pic06.PNG) <br />
+
+![img 7](img/Pic07.PNG) <br />
+
+![img 8](img/Pic08.PNG) <br />
+
+![img 9](img/Pic09.PNG) <br />
+
+![img 10](img/Pic10.PNG) <br />
+
+接著，只要看到Hyper-V manager裝好並有開啟一個新的VM就表示docker已成功安裝並開啟。
+
+![img 11](img/Pic11.PNG) <br />
+
+* Windows(old ver)/Mac
+
+請先至[官網](https://docs.docker.com/toolbox/toolbox_install_windows/#step-2-install-docker-toolbox)下載對應的系統版本。
+
+同時須確認機器必須擁有64位元系統與[虛擬化功能(windows)](https://www.microsoft.com/en-us/download/details.aspx?id=592)。
+
+接著，安裝流程如以下截圖所示。
+
+![img 12](img/Pic12.PNG) <br />
+
+![img 13](img/Pic13.PNG) <br />
+
+![img 14](img/Pic14.PNG) <br />
+
+![img 15](img/Pic15.PNG) <br />
+
+![img 16](img/Pic16.PNG) <br />
+
+![img 17](img/Pic17.PNG) <br />
+
+![img 18](img/Pic18.PNG) <br />
+
+![img 19](img/Pic19.PNG) <br />
+
+當安裝完成後，桌面將會出現以下三個圖示
+
+![img 20](img/Pic20.PNG) <br />
+
+接著我們須先執行Docker Quickstart Terminal
+
+![img 21](img/Pic21.PNG) <br />
+
+![img 22](img/Pic22.PNG) <br />
+
+當看到以下訊息即可知道安裝已經完成
+
+![img 23](img/Pic23.PNG) <br />
+
+
+
+* Linux
 
 #### Docker使用
 ### Docker Usage
