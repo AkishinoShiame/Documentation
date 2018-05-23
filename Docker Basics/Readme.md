@@ -115,9 +115,60 @@ ___________________________________
 
 ![img 23](img/Pic23.PNG) <br />
 
+接著，可執行kubernetes程式，它提供了一個良好的GUI介面以提供對docker container的管理到使用。
 
+以下為初次設定kubernetes的截圖。
+
+![img 24](img/Pic24.PNG) <br />
+
+依照指示選擇VirtualBox
+
+![img 25](img/Pic25.PNG) <br />
+
+![img 26](img/Pic26.PNG) <br />
+
+![img 27](img/Pic27.PNG) <br />
+
+![img 28](img/Pic28.PNG) <br />
+
+接著，登入你的Dccker Hub帳戶
+
+![img 29](img/Pic29.PNG) <br />
+
+當看到以下畫面時就表示安裝完成拉~~
+
+![img 30](img/Pic30.PNG) <br />
 
 * Linux
+
+根據不同的版本請使用不同的指令進行安裝
+
+```bash
+# Ubuntu(deb系)
+sudo apt-get update
+sudo apt-get install docker.io 
+
+#PS.官方是建議安裝docker-ce但我不太確定差距在哪，其實我個人用都沒出現錯誤資訊
+
+# CentOS(rhel系)
+sudo yum update
+sudo yum install docker-io
+
+# Fedora
+sudo dnf update
+sudo dnf install docker
+```
+
+安裝時會如下圖所示:
+
+*以ubuntu為例
+
+![img 31](img/Pic31.PNG) <br />
+
+接著，安裝完成後，若直接執行```docker```後若能出現以下結果即表示安裝完成
+
+![img 32](img/Pic32.PNG) <br />
+
 
 #### Docker使用
 ### Docker Usage
