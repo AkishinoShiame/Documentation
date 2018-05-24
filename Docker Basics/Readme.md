@@ -178,22 +178,51 @@ ___________________________________
 
 * CLI方式(Terminal)
 
+基礎常用指令
+
 ```bash
-docker images #show image
-docker ps -a #show container
-docker volume ls
-
-docker pull <image>
-docker run <image>
-docker attach <Name/ID>
-docker container start/stop <Container>
-docker rm <Container>
-docker create -v <RealFolder:VirtualVolumn> --name <name> <image>
-
-docker create -v C:/Users/shichiu/Documents/Backup-WSL:/home/shichiu/ --name work-ubuntu -it ubuntu
-docker start work-ubuntu
-docker attach work-ubuntu
+docker images #顯示 image
+docker ps -a #顯示 container
+docker volume ls #確認已經掛載的目錄
 ```
+
+由於尚未下載或建立任何東西，因此以下的示意圖資訊皆為空。
+
+![img 33](img/Pic33.PNG) <br />
+
+說明:
+
+```bash
+docker pull <image> #下載已經被push到docker hub的image
+docker run <image> #啟動某個已經下載的image，並將他塞至container
+docker attach <Name/ID> #直接連結到特定的docker container裡做下指令之動作
+docker container start/stop <Container> #開啟(開機)或關閉(關機)指定的docker container
+docker rm <Container> #移除docker container.
+docker create -v <RealFolder:VirtualVolumn> --name <name> <image> #建立並開機docker container
+```
+
+下載image。
+
+![img 34](img/Pic34.PNG) <br />
+
+![img 35](img/Pic35.PNG) <br />
+
+![img 36](img/Pic36.PNG) <br />
+
+接下來將以以下指令為例截圖。
+
+```bash
+docker run --name digits -d -p 5000:5000 nvidia/digits
+docker attach digits
+```
+
+建立並開啟digits的docker container
+
+![img 37](img/Pic37.PNG) <br />
+
+由於本次使用的container包含伺服器服務，因此以下截圖確認可直接連入。
+
+![img 38](img/Pic38.PNG) <br />
 
 * GUI方式(kubernetes)
 
