@@ -255,3 +255,7 @@ docker attach digits
 ![img 47](img/Pic47.PNG) <br />
 
 ![img 48](img/Pic48.PNG) <br />
+
+http://www.atmarkit.co.jp/ait/articles/1407/08/news031.html
+
+* 延伸訊息(建置自己的image): [http://www.atmarkit.co.jp/ait/articles/1407/08/news031.html](http://www.atmarkit.co.jp/ait/articles/1407/08/news031.html)
