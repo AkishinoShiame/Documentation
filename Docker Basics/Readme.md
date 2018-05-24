@@ -226,4 +226,32 @@ docker attach digits
 
 * GUI方式(kubernetes)
 
+搜尋想使用的image。
 
+![img 39](img/Pic39.PNG) <br />
+
+![img 40](img/Pic40.PNG) <br />
+
+![img 41](img/Pic41.PNG) <br />
+
+下載並建立想使用的docker container
+
+![img 42](img/Pic42.PNG) <br />
+
+![img 43](img/Pic43.PNG) <br />
+
+![img 44](img/Pic44.PNG) <br />
+
+選_EXEC圖形後可以進入文字介面下指令
+
+![img 45](img/Pic45.PNG) <br />
+
+停止docker container
+
+![img 46](img/Pic46.PNG) <br />
+
+移到指定的container上可選擇X來刪除container
+
+![img 47](img/Pic47.PNG) <br />
+
+![img 48](img/Pic48.PNG) <br />
