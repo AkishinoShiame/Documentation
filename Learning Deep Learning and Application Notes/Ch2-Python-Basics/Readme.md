@@ -118,7 +118,7 @@ Python 程式語言與其他以往的程式語言的邏輯上接近，但是程�
 	* Homebrew蘋果用套件管理程式
 	* 官方GUI介面
 　　
-　　<b>Homebrew蘋果用套件管理程式<b>
+　　**Homebrew蘋果用套件管理程式**
   
   根據Homebrew[官方](https://brew.sh/)網站所示，使用以下指令進行安裝Homebrew，接著可直接利用Homebrew快速安裝python3套件。
   
@@ -131,7 +131,7 @@ Python 程式語言與其他以往的程式語言的邏輯上接近，但是程�
   
   ```
   
-  <b>官方GUI介面<b>
+  **官方GUI介面**
   
   直接到官方下載mac專用安裝程式(.dmg)進行GUI安裝。
 
