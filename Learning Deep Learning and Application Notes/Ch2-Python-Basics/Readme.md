@@ -124,6 +124,8 @@ Python 程式語言與其他以往的程式語言的邏輯上接近，但是程�
   
   根據Homebrew[官方](https://brew.sh/)網站所示，使用以下指令進行安裝Homebrew，接著可直接利用Homebrew快速安裝python3套件。
   
+  ![img 11](img/Pic11.PNG)
+
   ```bash
   
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" #安裝Homebrew
@@ -132,10 +134,29 @@ Python 程式語言與其他以往的程式語言的邏輯上接近，但是程�
   brew install python3 #更新與安裝python3
   
   ```
-  
+  ![img 12](img/Pic12.PNG)
+
+  ![img 13](img/Pic13.PNG)
+
+  ![img 14](img/Pic14.PNG)
+
+  ![img 15](img/Pic15.PNG)
+
   **>官方GUI介面<**
   
   直接到官方下載mac專用安裝程式(.dmg)進行GUI安裝。
+
+  ![img 16](img/Pic16.PNG)
+
+  ![img 17](img/Pic17.PNG)
+
+  ![img 18](img/Pic18.PNG)
+
+  ![img 19](img/Pic19.PNG)
+
+  安裝好後即可在終端機使用pip3安裝其他函式庫。
+
+  ![img 20](img/Pic20.PNG)
 
 * 常用函式庫
 
