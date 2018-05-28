@@ -37,10 +37,59 @@ Python 程式語言與其他以往的程式語言的邏輯上接近，但是程�
   根據系統不同請選擇對應的位元數進行安裝。 請參照Windows 設定中的系統做確認。
   
   ![img 01](img/Pic01.PNG)
+  
+  對應下載頁面，選擇合適的安裝檔下載。
+  
+  ![img 02](img/Pic02.PNG)
+  
+  確認安裝
+  
+  ![img 03](img/Pic03.PNG)
+  
+  如果要加裝外部的函示庫，則開啟cmd使用內建提供之pip工具進行安裝。
+  
+  ![img 04](img/Pic04.PNG)
+  
+  PS. 由於python本身會將不同版本分路徑安裝，因此若有開發需要可將多個不同版本的python安裝於同一電腦內。
 
 * 安裝與使用
   * Linux(Ubuntu)安裝方式
-
+  
+  建議使用指令進行安裝，其相關完整安裝指令如下。
+  
+  ```bash
+  
+  #注意，根據不同的版本需求請將python換成"python2","python2.7","python3","python3.5"或"python3.6"等等
+  
+  sudo apt install python python-dev #python 主要套件
+  sudo apt install python-pip #python 函式庫管理套件
+  sudo apt install python-virtualenv #因應開發需求可額外安裝的套件
+  
+  ```
+  
+  ![img 05](img/Pic05.PNG)
+  
+  同時，在ubuntu中有主要兩種套件安裝方式:
+    * 使用apt進行安裝
+	* 使用pip進行安裝
+  
+  在我個人使用上比較建議使用pip進行安裝，由於此工具為python官方提供之套件，並且版本通常比較新也可選擇特定版本安裝。
+  
+  ```bash
+  #apt安裝方法
+  sudo apt install -y python-??? #將"python-???"改成想安裝的lib名稱，Ex:"python-numpy"
+  
+  ```
+  
+  ![img 06](img/Pic06.PNG)
+  
+  ```bash
+  #pip安裝方法
+  pip install ??? #將"???"改成要安裝的lib名稱，Ex:"numpy"
+  
+  ```
+  
+  ![img 07](img/Pic07.PNG)
 
 * 安裝與使用
   * Mac安裝方式
