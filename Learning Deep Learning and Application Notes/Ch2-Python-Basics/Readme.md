@@ -94,7 +94,46 @@ Python 程式語言與其他以往的程式語言的邏輯上接近，但是程�
 * 安裝與使用
   * Mac安裝方式
   
+  mac本身預設是會安裝python2，如下圖所示。
   
+  ![img 08](img/Pic08.PNG)
+  
+  但此版本本身不含pip函式庫管理套件，因此需額外用指令進行安裝。
+  
+  ```bash
+  
+  sudo easy_install pip
+  
+  ```
+  
+  如此一來，即可直接使用pip指令進行套件安裝。
+  
+  ![img 09](img/Pic09.PNG)
+  
+  同時，在使用pip安裝套件時會得知需要加裝Xcode才有辦法完整運作，因此需下載免費的Xcode套件
+  
+  ![img 10](img/Pic10.PNG)
+  
+  如果要使用Python3，則常用的方式有兩種安裝方式：
+	* Homebrew蘋果用套件管理程式
+	* 官方GUI介面
+　　
+　　<b>Homebrew蘋果用套件管理程式<b>
+  
+  根據Homebrew[官方](https://brew.sh/)網站所示，使用以下指令進行安裝Homebrew，接著可直接利用Homebrew快速安裝python3套件。
+  
+  ```bash
+  
+  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" #安裝Homebrew
+  
+  brew update
+  brew install python3 #更新與安裝python3
+  
+  ```
+  
+  <b>官方GUI介面<b>
+  
+  直接到官方下載mac專用安裝程式(.dmg)進行GUI安裝。
 
 * 常用函式庫
 
