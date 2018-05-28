@@ -2,10 +2,10 @@
 # Python基礎與IDE
 
 ### Content
-* [Python與版本](#)
-* [Python函式庫](#)
-* [Python語言](#)
-* [Python編輯器](#)
+* [Python與版本](#Python與版本)
+* [Python函式庫](#Python函式庫)
+* [Python語言](#Python語言)
+* [Python編輯器](#Python編輯器)
 
 ## Python與版本
 
