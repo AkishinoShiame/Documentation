@@ -93,8 +93,8 @@ Python 程式語言與其他以往的程式語言的邏輯上接近，但是程�
 
 * 安裝與使用
   * Mac安裝方式
-
-
+  
+  
 
 * 常用函式庫
 
@@ -111,3 +111,15 @@ if __name__ == "__main__":
 		print(i)
 
 ```
+
+## Python編輯器
+
+list
+* 集合包
+  * WinPython
+  * Anaconda
+* 純編譯器
+  * IDLE
+  * Spyter
+  * PyCharm
+  * Others
