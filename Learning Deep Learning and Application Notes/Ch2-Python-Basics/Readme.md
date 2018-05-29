@@ -224,13 +224,29 @@ PS.其他相關深度學習之lib將另外獨立章節說明。
 
 以下簡單列舉Python程式語言的大致樣貌。
 
-```
+```python3
 import os
 
+values = [{"name": "Michelangelo", "food": "PIZZA"}, {"name": "Garfield", "food": "lasagna"}]
+
+def unpacker(name=None, food=None):
+    return ["Hi, I'm {} and I love to eat {}!".format(name, food)]
+
+def string_factory(values):
+    ans = []
+    for value in values:
+        template = unpacker(**value)
+        ans.extend(template)
+    return ans
+
 if __name__ == "__main__":
+    result = string_factory(values)
+    print(result)
+	
 	for i in range(10):
 		print(i)
 
+    
 ```
 
 ## Python編輯器
