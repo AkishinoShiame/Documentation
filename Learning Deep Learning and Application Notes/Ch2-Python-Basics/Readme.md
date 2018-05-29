@@ -225,28 +225,39 @@ PS.其他相關深度學習之lib將另外獨立章節說明。
 以下簡單列舉Python程式語言的大致樣貌。
 
 ```python3
-import os
 
+# 以下為匯入函式庫的方式，此外python不限定只用系統安裝的，也可把寫好的py檔當成lib import
+import os	#整包直接匯入，然後調用時直接使用os調用
+import tensorflow as tf	#匯入後改名，使用時用tf調用
+from numpy import random	#從整包的函式庫只匯入部分/單一function使用，調用時使用random調用
+from keras.models import Sequential as kar_seq	#從整包的函式庫只匯入部分/單一function使用，調用時使用kar_seq調用
+
+# 以下為變數宣告方式，python中的變數沒有預設宣告格式的功能。
 values = [{"name": "Michelangelo", "food": "PIZZA"}, {"name": "Garfield", "food": "lasagna"}]
+temp = 2
+check = True
 
+
+# def 開頭的為宣告function的功能，同時宣告後可直接被其他py檔案調用
 def unpacker(name=None, food=None):
     return ["Hi, I'm {} and I love to eat {}!".format(name, food)]
 
 def string_factory(values):
     ans = []
-    for value in values:
+    for value in values:	# for的其中一種方式，當value是陣列或是list時，python會自動抓取並一筆一筆丟入直到EoF。
         template = unpacker(**value)
         ans.extend(template)
     return ans
 
 if __name__ == "__main__":
-    result = string_factory(values)
-    print(result)
+    result = string_factory(values) #調用def定義好的function，跟其他程式語言相同
+    print(result)	#列印變數，將所要印的東西全都用()括起來，在python2只有"print result"的方式，無括弧。
 	
-	for i in range(10):
+	for i in range(10):	#for 抓取變數更新的另一種方式，從0開始到9，當到10會跳出迴圈。
 		print(i)
+		print(type(i), type(result))	#用type()內建函數可確認變數被給定的型態，並利用","可同時列印多個不同變數。
 
-    
+#別忘記python本身很重視排版，當縮排有錯將會導致執行錯誤。
 ```
 
 ## Python編輯器
