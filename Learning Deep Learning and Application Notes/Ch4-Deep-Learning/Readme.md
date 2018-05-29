@@ -33,4 +33,5 @@
 
 
 * 微軟日本(りんな)ChatBot研究
+
   論文連結:[りんな：女子高生人工知能/言語処理学会 第22回年次大会 発表論文集 (2016年3月)](http://www.anlp.jp/proceedings/annual_meeting/2016/pdf_dir/B1-3.pdf)
