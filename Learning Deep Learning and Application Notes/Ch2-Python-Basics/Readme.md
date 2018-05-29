@@ -276,17 +276,45 @@ list
 * 集合包  
   [**WinPython**](http://winpython.github.io/)
   
+  WinPython本身為windows平台包裝製成。
   
+  此集成包非常方便，已經包裝好部分基礎所需要的套件。
+  
+  內建Spyter編輯器與函式庫管理套件。如下圖所示。
+  
+  ![img 21](img/Pic21.PNG)
+  
+  內建所包含之library可由[這裡](https://github.com/winpython/winpython/blob/master/changelogs/WinPythonQt5-32bit-3.6.5.0.md)查詢。
+  
+  此外，除了截圖中的套件管理程式，pip也有包含在裡面可以使用。
   
 * 集合包  
-  **Anaconda**
+  [**Anaconda**](https://www.anaconda.com/download/)
   
+  Anaconda相對於上述的WinPython，優勢相對高一點。由於其所支援的平台橫跨Windows/Liunx與macOS三種平台。
   
+  如同WinPython一樣，此軟體也包含了諸多的預設lib套件。
+  
+  其介面如下圖所示:
+  
+  ![img 22](img/Pic22.PNG)
+  
+  同時,Anaconda本身有很完整的GUI套件與其自行開發之管理介面，因此許多需要的工具皆可從其軟體首頁進行管理。
+  
+  預設安裝的lib套件資訊可由[官方的說明文件](https://docs.anaconda.com/anaconda/packages/pkg-docs)得知。
+  
+  另外，部分的指令管理有其自行[開發的指令](https://docs.anaconda.com/anaconda/user-guide/getting-started#write-a-python-program-using-anaconda-prompt-or-terminal)。
   
 * 純編譯器  
   **IDLE**
   
+  IDLE為官方內建的編譯器。在安裝Python官方的軟體時，預設會自動安裝置電腦中。
   
+  此編譯器類似於linux中的vim套件，但同時也具備逐行檢查錯誤之功能。
+  
+  個人覺得不太好用，因此裝完後就直接擺在那邊不太使用。
+  
+  ![img 23](img/Pic23.PNG)
   
 * 純編譯器  
   **Spyter**
