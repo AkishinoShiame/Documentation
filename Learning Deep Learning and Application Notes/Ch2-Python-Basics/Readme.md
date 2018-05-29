@@ -369,5 +369,14 @@ list
 * 純編譯器  
   **Others**
   
+  此處放置幾個個人聽過但鮮少使用的編譯器僅供參考，若有需要可自行研究。
+  
+  [Visual Studio Code](https://code.visualstudio.com/download):微軟所開發的跨平台編譯器，聽說受到蠻多coding朋友的愛戴。
+  
+  [Sublime Text](https://www.sublimetext.com/3):為一跨平台的超簡易編譯器，據說有段時間也很熱門。
+  
+  [Vim](https://www.vim.org/download.php):在Linux/UNIX與FreeBSD等系統中，文字介面裡很受歡迎的編譯工具。
+  
+  ...其他的等待有緣人幫忙推薦補充了(´･ω･｀)//
   
   
