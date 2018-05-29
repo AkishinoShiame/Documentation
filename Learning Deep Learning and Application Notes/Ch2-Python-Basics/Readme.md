@@ -271,3 +271,34 @@ list
   * Spyter
   * PyCharm
   * Others
+  
+* 集合包
+  **WinPython**
+  
+  
+  
+* 集合包
+  **Anaconda**
+  
+  
+  
+* 純編譯器
+  **IDLE**
+  
+  
+  
+* 純編譯器
+  **Spyter**
+  
+  
+  
+* 純編譯器
+  **PyCharm**
+  
+  
+  
+* 純編譯器
+  **Others**
+  
+  
+  
