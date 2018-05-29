@@ -306,7 +306,7 @@ list
   另外，部分的指令管理有其自行[開發的指令](https://docs.anaconda.com/anaconda/user-guide/getting-started#write-a-python-program-using-anaconda-prompt-or-terminal)。
   
 * 純編譯器  
-  **IDLE**
+  [**IDLE**](https://docs.python.org/3/library/idle.html)
   
   IDLE為官方內建的編譯器。在安裝Python官方的軟體時，預設會自動安裝置電腦中。
   
@@ -317,14 +317,54 @@ list
   ![img 23](img/Pic23.PNG)
   
 * 純編譯器  
-  **Spyter**
+  [**Spyter**](https://pythonhosted.org/spyder/)
   
+  Spyter是一個使用Python語言原生寫出來的編譯器，同樣支援Windows/Linux與macOS等多個平台。
   
+  此編譯器本身有被包在WinPython與Anaconda中，同時在Ubuntu的Software Center中可直接下載安裝。
+  
+  此編譯器包含部分的Auto-Complete功能，在編輯與撰寫中可以提升效能。
+  
+  但缺點是他在Ubuntu等Linux系統上的會有語系轉換的問題，windows在部分的環境設置上也可能會遇到。
+  
+  其軟體截圖如下:
+  
+  ![img 24](img/Pic24.PNG)
   
 * 純編譯器  
-  **PyCharm**
+  [**PyCharm**](https://www.jetbrains.com/pycharm/download/)
   
+  此編譯器為朋友先推薦使用後我個人開始使用的編譯器。
   
+  同樣支援多平台，且也算是蠻lightweight的系統。
+  
+  不論作為開發或是初期學習都算是個不錯的編譯器，由於官方很仁慈的額外提供了[教育版](https://www.jetbrains.com/pycharm-edu/)，內建學習資源可邊練邊學。
+  
+  個人使用上可使用Community版免費使用。
+  
+  其本身的風格類似VisualStudio的Project功能，建立一個資料夾為整個Python Project進行管理。
+  
+  ![img 25](img/Pic25.PNG)
+  
+  此外，其還有兩個強大的功能，必須在此強烈推薦:
+  
+  1. 可自主選擇project所使用的python版本。
+  
+    在同一台電腦上，可同時因為不同的開發需求，安裝多個不同的python版本。
+	
+	同時，PyCharm會自動掃瞄並偵測所包含的所有版本。
+	
+	此外，library也是根據不同版本有獨立管理功能。
+	
+	![img 26](img/Pic26.PNG)
+  
+  2. 非常好用的lib管理介面。
+  
+    在這個介面上，他會列出所有它可收集到的library，可以同時勾選並一鍵安裝，這是對於開發者而言非常方便的功能。
+  
+    可以免去許多額外去官網或是上stacksverflow找尋安裝方法或安裝錯誤的解決方法。
+    
+     ![img 27](img/Pic27.PNG)	
   
 * 純編譯器  
   **Others**
