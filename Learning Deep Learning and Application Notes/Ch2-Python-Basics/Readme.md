@@ -224,7 +224,7 @@ PS.其他相關深度學習之lib將另外獨立章節說明。
 
 以下簡單列舉Python程式語言的大致樣貌。
 
-```python3 {.line-numbers}
+```python3
 
 # 以下為匯入函式庫的方式，此外python不限定只用系統安裝的，也可把寫好的py檔當成lib import
 import os	#整包直接匯入，然後調用時直接使用os調用
