@@ -240,7 +240,7 @@ check = True
 
 # def 開頭的為宣告function的功能，同時宣告後可直接被其他py檔案調用
 def unpacker(name=None, food=None):
-    return ["Hi, I'm {} and I love to eat {}!".format(name, food)]
+    return ["Hi, I'm {} and I love to eat {}!".format(name, food)]	#.format是一種python內建方便的功能，可以將對應的資訊往所要存放的位置塞入。
 
 def string_factory(values):
     ans = []
