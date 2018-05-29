@@ -272,8 +272,9 @@ list
   * PyCharm
   * Others
   
-* 集合包
-  **WinPython**
+  
+* 集合包  
+  [**WinPython**](http://winpython.github.io/)
   
   
   
