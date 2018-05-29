@@ -160,66 +160,66 @@ Python 程式語言與其他以往的程式語言的邏輯上接近，但是程�
 
 * 常用函式庫
 
-[NumPy](http://www.numpy.org/):
-
-數值計算使用，在較為大的數值運算，矩陣運算與多為矩陣處理非常好用。
-
-同時，此函式支援及時更新與儲存功能。
-
-[SciPy](https://www.scipy.org/):
-
-某種程度上來說可算是為前一函式庫(NumPy)的進階版。
-
-其中專注於科學上的計算與使用，像是一些既定公式都可以在此找到。
-
-[Pandas](https://pandas.pydata.org/):
-
-接近於資料分析工具，其中拿來做資料的前處理時是個好用的工具。
-
-[Matplotlib](https://matplotlib.org/):
-
-Python中其中一種繪圖程式，在資料處理中常被拿來做資料視覺化的工具。
-
-其內建強大的不同圖表工具幫助資料快速視覺化。
-
-[NTLK](https://www.nltk.org/):
-
-自然語言處理相關的常用函式庫，主要是用來做字詞的"tokenlize"。
-
-可以把自然語言轉換為數值形式方便儲存與運算。
-
-[Gensim](https://radimrehurek.com/gensim/):
-
-略為接近前者，主要用來進行自然語言的文本分析，從文本內抽出並計算詞向量。
-
-支援常見的兩種詞向量計算與通用格式。
-
-此外，目前他本身也支援作文本向量與句子向量運算，為自然語言處理中一極為便利的工具。
-
-[Scrapy](https://scrapy.org/):
-
-python中知名的爬蟲工具，內建極為強大的爬蟲用分析工具。
-
-可針對諸多需求進行變形，抓取所需要的資料。並可同時爬取非文本資料。
-
-[Flask](http://flask.pocoo.org/):
-
-使用python語言建置的網頁伺服器，類似apache, IIS等伺服器之功能。
-
-可直接用python語言結合網頁語言(HTML, JavaScript, CSS...)等等混合使用做出簡易又華麗的網頁。
-
-也適合來做產生API介面之工具。
-
-[Pickle](https://docs.python.org/3/library/pickle.html)/[cPickle](https://docs.python.org/2.5/lib/module-cPickle.html):
-
-Python內建的一個資料序列化儲存工具。
-
-適合用來將把訓練好的權重等資訊進行壓縮與序列化儲存到電腦中。
-
-有需要的時候也可直接叫出來使用，概念有點像是7-zip的資料封存。
-
-PS.其他相關深度學習之lib將另外獨立章節說明。
-
+  [NumPy](http://www.numpy.org/):
+  
+  數值計算使用，在較為大的數值運算，矩陣運算與多為矩陣處理非常好用。
+  
+  同時，此函式支援及時更新與儲存功能。
+  
+  [SciPy](https://www.scipy.org/):
+  
+  某種程度上來說可算是為前一函式庫(NumPy)的進階版。
+  
+  其中專注於科學上的計算與使用，像是一些既定公式都可以在此找到。
+  
+  [Pandas](https://pandas.pydata.org/):
+  
+  接近於資料分析工具，其中拿來做資料的前處理時是個好用的工具。
+  
+  [Matplotlib](https://matplotlib.org/):
+  
+  Python中其中一種繪圖程式，在資料處理中常被拿來做資料視覺化的工具。
+  
+  其內建強大的不同圖表工具幫助資料快速視覺化。
+  
+  [NTLK](https://www.nltk.org/):
+  
+  自然語言處理相關的常用函式庫，主要是用來做字詞的"tokenlize"。
+  
+  可以把自然語言轉換為數值形式方便儲存與運算。
+  
+  [Gensim](https://radimrehurek.com/gensim/):
+  
+  略為接近前者，主要用來進行自然語言的文本分析，從文本內抽出並計算詞向量。
+  
+  支援常見的兩種詞向量計算與通用格式。
+  
+  此外，目前他本身也支援作文本向量與句子向量運算，為自然語言處理中一極為便利的工具。
+  
+  [Scrapy](https://scrapy.org/):
+  
+  python中知名的爬蟲工具，內建極為強大的爬蟲用分析工具。
+  
+  可針對諸多需求進行變形，抓取所需要的資料。並可同時爬取非文本資料。
+  
+  [Flask](http://flask.pocoo.org/):
+  
+  使用python語言建置的網頁伺服器，類似apache, IIS等伺服器之功能。
+  
+  可直接用python語言結合網頁語言(HTML, JavaScript, CSS...)等等混合使用做出簡易又華麗的網頁。
+  
+  也適合來做產生API介面之工具。
+  
+  [Pickle](https://docs.python.org/3/library/pickle.html)/[cPickle](https://docs.python.org/2.5/lib/module-cPickle.html):
+  
+  Python內建的一個資料序列化儲存工具。
+  
+  適合用來將把訓練好的權重等資訊進行壓縮與序列化儲存到電腦中。
+  
+  有需要的時候也可直接叫出來使用，概念有點像是7-zip的資料封存。
+  
+  PS.其他相關深度學習之lib將另外獨立章節說明。
+  
 ## Python語言
 
 以下簡單列舉Python程式語言的大致樣貌。
