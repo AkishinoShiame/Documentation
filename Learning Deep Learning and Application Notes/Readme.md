@@ -15,10 +15,10 @@
 
 * [概述](#abstract)
 * [系統環境](#system)
-    * [前置作業](#pre-process)
+    * [前置作業](#前置作業)
 	* [Ubuntu Server 14.04 LTS](#ubuntu-1404-server)
 	* [Ubuntu Server 16.04 LTS](#ubuntu-1604-server)
-	* [網路設置(Optional)](#internet-settings)
+	* [網路設置(Optional)](#網路設置optional)
 * [Python基礎與IDE](#python-basics)
 * [GPU運算建置-CUDA](#gpu-cuda)
     * [Windows環境](#Windows-cuda)
@@ -41,23 +41,21 @@
 
 [傳送門](Ch1-System)
 
-  ### Pre-Process
-  ## 前置作業
-  
-  [傳送門](Ch1-System#pre-process)
-  
-  ### Ubuntu 14.04 Server
-  
-  [傳送門](Ch1-System#ubuntu-1404-server)
-  
-  ### Ubuntu 16.04 Server
-  
-  [傳送門](Ch1-System#ubuntu-1604-server)
-  
-  ### Internet Settings
-  ## 網路設置(Optional)
-  
-  [傳送門](Ch1-System#internet-settings)
+    ### 前置作業
+    
+    [傳送門](Ch1-System#pre-process)
+    
+    ### Ubuntu 14.04 Server
+    
+    [傳送門](Ch1-System#ubuntu-1404-server)
+    
+    ### Ubuntu 16.04 Server
+    
+    [傳送門](Ch1-System#ubuntu-1604-server)
+    
+    ### 網路設置(Optional)
+    
+    [傳送門](Ch1-System#internet-settings)
   
 ### Python Basics
 ## Python基礎與IDE
