@@ -39,17 +39,26 @@
 ### System
 ## 系統環境
 
-建置系統部分涵蓋了兩個部分，關於Linux 運算環境建置Ubuntu伺服器的安裝與設置。其中也包含了常用到的指令整理等等。
-<br />
+[傳送門](Ch1-System)
 
-### Ubuntu 14.04 Server
-
-本部分將會針對伺服器安裝流程進行撰寫<br />
-
-### Ubuntu 16.04 Server
-
-本部分將會針對伺服器安裝流程進行撰寫<br />
-
+  ### Pre-Process
+  ## 前置作業
+  
+  [傳送門](Ch1-System#pre-process)
+  
+  ### Ubuntu 14.04 Server
+  
+  [傳送門](Ch1-System#ubuntu-1404-server)
+  
+  ### Ubuntu 16.04 Server
+  
+  [傳送門](Ch1-System#ubuntu-1604-server)
+  
+  ### Internet Settings
+  ## 網路設置(Optional)
+  
+  [傳送門](Ch1-System#internet-settings)
+  
 ### Python Basics
 ## Python基礎與IDE
 
