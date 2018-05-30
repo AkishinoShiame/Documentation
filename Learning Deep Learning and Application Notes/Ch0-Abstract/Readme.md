@@ -20,9 +20,9 @@ This study presents a Virtual Elderly Companion Agent which based on speech spec
 
 # 論文資訊
 
-|||
-| ---------------:|:--------------------------------------------------------------------------- |
+
 | 本論文永久網址:  | http://hdl.handle.net/11296/s73rsn |
+| ---------------:|:--------------------------------------------------------------------------- |
 | 研究生:    | [邱盛宇](https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/ccd=xAGuAl/search?q=auc=%22%E9%82%B1%E7%9B%9B%E5%AE%87%22.&searchmode=basic) |
 | 研究生(外文):   | [CHIU, SHENG-YU](https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/ccd=xAGuAl/search?q=aue=%22CHIU%2C%20SHENG-YU%22.&searchmode=basic) |
 | 論文名稱:    | 以深度網路建構自然語言處理模型 |
