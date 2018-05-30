@@ -16,9 +16,10 @@
 
 This study presents a Virtual Elderly Companion Agent which based on speech spectrograms, seq2seq chatbot and deep convolutional neural networks. The system can auto-dynamically detect and analyze the user’s emotion from the dialogue and give appropriate positive emotion feedback. The proposed system architecture is divided into two parts. The client side uses Unity Editor to compose the mobile app, which supports both Android operating system and iPhone OS (iOS); the server side is implemented in python, and applied GoogLeNet for emotion recognition, and RNN-LSTM for Seq2Seq chatbot conversation. The system supports natural language as speech input, and then analyzes the converted speech spectrogram also the translated natural language text to provide appropriate feedback and conversations.
 
+---
 
+# 論文資訊
 
-| <td colspan=2>論文資訊                                                                   |
 | ---------------:|:--------------------------------------------------------------------------- |
 | 本論文永久網址:  | http://hdl.handle.net/11296/s73rsn |
 | 研究生:    | [邱盛宇](https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/ccd=xAGuAl/search?q=auc=%22%E9%82%B1%E7%9B%9B%E5%AE%87%22.&searchmode=basic) |
