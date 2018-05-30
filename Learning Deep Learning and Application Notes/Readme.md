@@ -20,9 +20,13 @@
 	* [Ubuntu Server 16.04 LTS](#ubuntu-1604-server)
 	* [網路設置(Optional)](#網路設置optional)
 * [Python基礎與IDE](#python-basics)
+    * [Python與版本](#python與版本)
+    * [Python函式庫](#python函式庫)
+    * [Python語言](#python語言)
+    * [Python編輯器](#python編輯器)
 * [GPU運算建置-CUDA](#gpu-cuda)
-    * [Windows環境](#Windows-cuda)
-    * [Linux環境](#linux-cuda)
+    * [Windows環境](#Windows環境)
+    * [Linux環境](#Linux環境)
 * [深度網路理論整理](#deep-learning)
 * [API應用程式界面](#api)
     * [Theano](#theano)
@@ -60,20 +64,36 @@
 ### Python Basics
 ## Python基礎與IDE
 
-提供Python的安裝，簡單的基礎架構與相關實用的編輯器。
+[傳送門](Ch2-Python-Basics)
+
+> ### python與版本
+> 
+> [傳送門](Ch2-Python-Basics#python與版本)
+> 
+> ### python函式庫
+> 
+> [傳送門](Ch2-Python-Basics#python函式庫)
+> 
+> ### python語言
+> 
+> [傳送門](Ch2-Python-Basics#python語言)
+> 
+> ### python編輯器
+> 
+> [傳送門](Ch2-Python-Basics#python編輯器)
 
 ### GPU CUDA
 ## GPU運算建置-CUDA
 
-本章節針對CUDA環境的建置進行說明。<br />
+[傳送門](Ch3-GPU-Cuda)
 
-### Windows Cuda
-
-將Cuda安裝至windows上的方法。
-
-### Linux Cuda
-
-將Cuda安裝至Linux Ubuntu上的方法。
+> ### Windows環境
+> 
+> [傳送門](Ch3-GPU-Cuda#windows-cuda)
+> 
+> ### Linux環境
+> 
+> [傳送門](Ch3-GPU-Cuda#linux-cuda)
 
 ### Deep Learning
 ## 深度網路理論整理
