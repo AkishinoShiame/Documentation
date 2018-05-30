@@ -41,21 +41,21 @@
 
 [傳送門](Ch1-System)
 
-  ### 前置作業
-  
-  [傳送門](Ch1-System#pre-process)
-  
-  ### Ubuntu 14.04 Server
-  
-  [傳送門](Ch1-System#ubuntu-1404-server)
-  
-  ### Ubuntu 16.04 Server
-  
-  [傳送門](Ch1-System#ubuntu-1604-server)
-  
-  ### 網路設置(Optional)
-  
-  [傳送門](Ch1-System#internet-settings)
+　　### 前置作業
+　　
+　　[傳送門](Ch1-System#pre-process)
+　　
+　　### Ubuntu 14.04 Server
+　　
+　　[傳送門](Ch1-System#ubuntu-1404-server)
+　　
+　　### Ubuntu 16.04 Server
+　　
+　　[傳送門](Ch1-System#ubuntu-1604-server)
+　　
+　　### 網路設置(Optional)
+　　
+　　[傳送門](Ch1-System#internet-settings)
   
 ### Python Basics
 ## Python基礎與IDE
